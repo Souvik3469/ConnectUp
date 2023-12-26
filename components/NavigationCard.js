@@ -15,7 +15,7 @@ export default function NavigationCard(){
   async function logout() {
     await supabase.auth.signOut();
   }
-console.log("Myprofile1:", myProfile ? myProfile.id : "Profile not available yet");
+//console.log("Myprofile1:", myProfile ? myProfile.id : "Profile not available yet");
 
   return (
     <Card noPadding={true}>
