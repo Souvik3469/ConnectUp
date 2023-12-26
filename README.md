@@ -1,34 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# ConnectUp
 
-First, run the development server:
+ConnectUp is a feature-rich social media app designed to connect people in a seamless and enjoyable way. Built on Supabase, ConnectUp combines powerful database functionalities with a user-friendly interface, offering a delightful social networking experience.(Practice project for Supabase integration).
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Authors
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- [@Souvik3469](https://github.com/Souvik3469)(Souvik Sen)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Prototype Demo
 
-## Learn More
+https://connect-up.vercel.app/
+<!--
+## Technology Stack & Tools
 
-To learn more about Next.js, take a look at the following resources:
+- Solidity (Writing Smart Contracts & Tests)
+- Javascript (React & Testing)
+- [Hardhat](https://hardhat.org/) (Development Framework)
+- [Ethers.js](https://docs.ethers.io/v5/) (Blockchain Interaction)
+- [React.js](https://reactjs.org/) (Frontend Framework)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Ensure you have MetaMask installed on your web browser.
+- Connect your MetaMask wallet to the Ethereum Ropsten test network for testing purposes.
+-->
 
-## Deploy on Vercel
+## Features
+### Google Authentication
+Sign in with your Google account for a quick and secure login experience.
+![Auth1](https://github.com/Souvik3469/ConnectUp/blob/main/public/auth1.png)
+![Auth2](https://github.com/Souvik3469/ConnectUp/blob/main/public/auth2.png)
+![Home](https://github.com/Souvik3469/ConnectUp/blob/main/public/home1.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Create and Share Posts
+Share your thoughts, photos, and updates with your network easily.
+![Add1](https://github.com/Souvik3469/ConnectUp/blob/main/public/addpost1.png)
+![Add2](https://github.com/Souvik3469/ConnectUp/blob/main/public/allposts.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Like and Comment
+Engage with posts by liking them and leaving comments.
+![Like](https://github.com/Souvik3469/ConnectUp/blob/main/public/likeandcomment.png)
+![Comment1](https://github.com/Souvik3469/ConnectUp/blob/main/public/comment1.png)
+![Comment2](https://github.com/Souvik3469/ConnectUp/blob/main/public/comment2.png)
+
+### View My Posts:
+Quickly access all the posts you've shared in one place.
+![MyPosts](https://github.com/Souvik3469/ConnectUp/blob/main/public/myprofile.png)
+
+### View Saved Posts
+Bookmark posts to revisit them later in your saved posts section.
+![SavedPosts](https://github.com/Souvik3469/ConnectUp/blob/main/public/savedpost1.png)
+
+### Change Profile Picture and Cover Photo:
+Personalize your profile by updating your profile and cover pictures.
+![UpdateProfile](https://github.com/Souvik3469/ConnectUp/blob/main/public/myprofile.png)
+
+
+
+
